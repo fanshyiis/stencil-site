@@ -70,7 +70,7 @@ export class SiteHeader {
               this.hideNav();
             }}
           >
-            Docs
+            文档
           </stencil-route-link>
           <stencil-route-link
             url="/resources"
@@ -79,22 +79,25 @@ export class SiteHeader {
               this.hideNav();
             }}
           >
-            Resources
+            资源
           </stencil-route-link>
           <a href="https://ionicframework.com/blog/tag/stencil/" aria-label="Blog" class="external-links">
-            Blog
+            博客
           </a>
 
           <a href="https://ionic.io/products/stencil" class="external-links">
-            Enterprise
+            关于 ionic
           </a>
 
           <ul class="external-links list--unstyled">
             <li>
               <docs-dropdown class="link--external" icon={Translation} align="right">
                 <section>
-                  <a href="https://stenciljs.com/" class="link-active">
+                  <a href="https://stenciljs.com/">
                     English
+                  </a>
+                  <a href="https://stenciljs.com.cn/" class="link-active" target="_blank">
+                    简体中文
                     <svg viewBox="0 0 512 512" width="14">
                       <path d="M186.301 339.893L96 249.461l-32 30.507L186.301 402 448 140.506 416 110z"></path>
                     </svg>

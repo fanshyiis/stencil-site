@@ -32,15 +32,15 @@ export class LandingPage {
             Stencil Enterprise Webinar: Design Systems at Scale
           </feature-pill>
           <hgroup>
-            <h1>Build. Customize. Distribute. Adopt.</h1>
+            <h1>构建. 自定义. <br></br>分发. 集成.</h1>
             <p>
-              Stencil is a toolchain for building reusable, scalable Design Systems. Generate small, blazing fast, and 100% standards based Web Components that run in every browser.
+              Stencil 是一个构建可重用、可扩展的设计系统的工具链，可以帮助你构建和发布可重用的组件库。它足够小、足够快而且百分之百基于 Web Components 的设计规范。可以让你的组件运行在任何浏览器，并且可以被移植到任何平台。 
             </p>
             <stencil-route-link url="/docs/getting-started" class="hero-button" anchorClass="btn-get-started">
-              Get started
+              马上开始
             </stencil-route-link>
             <stencil-route-link url="/docs/introduction" class="hero-button" anchorClass="btn-why-stencil">
-              Why Stencil?
+              为什么是 Stencil?
             </stencil-route-link>
           </hgroup>
           <svg class="landing-page__bg" width="661" height="573" viewBox="0 0 661 573" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -62,7 +62,7 @@ export class LandingPage {
 
         <div class="companies">
           <ResponsiveContainer>
-            <h3>Powering design systems and cross-framework components at</h3>
+            <h3>这些公司都在使用 Stencil 构建扩展性的设计系统和跨框架的组件库</h3>
             <ul>
               <li>
                 <svg width="31" height="37" viewBox="0 0 31 37" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -241,34 +241,34 @@ export class LandingPage {
             <div class="two-col">
               <hgroup>
                 <h2>
-                  <strong>The magical, reusable web component compiler.</strong> Start building in seconds.
+                  <strong>一个可用来构建「可复用、灵活」Web组件的编译器。</strong> 快如闪电
                 </h2>
               </hgroup>
 
               <ul class="list--unstyled list--icon">
                 <li>
-                  <app-icon name="checkmark" /> Web Component-based
+                  <app-icon name="checkmark" /> 基于 Web Component
                 </li>
                 <li>
-                  <app-icon name="checkmark" /> Asynchronous rendering pipeline
+                  <app-icon name="checkmark" /> 可异步渲染
                 </li>
                 <li>
-                  <app-icon name="checkmark" /> TypeScript support
+                  <app-icon name="checkmark" /> 支持 TypeScript
                 </li>
                 <li>
-                  <app-icon name="checkmark" /> One-way Data Binding
+                  <app-icon name="checkmark" /> 支持单向数据流
                 </li>
                 <li>
-                  <app-icon name="checkmark" /> Component prerendering
+                  <app-icon name="checkmark" /> Component 预渲染
                 </li>
                 <li>
-                  <app-icon name="checkmark" /> Simple component lazy-loading
+                  <app-icon name="checkmark" /> 可动态加载组件
                 </li>
                 <li>
-                  <app-icon name="checkmark" /> JSX support
+                  <app-icon name="checkmark" /> 支持 JSX
                 </li>
                 <li>
-                  <app-icon name="checkmark" /> Dependency-free components
+                  <app-icon name="checkmark" /> 组件间无依赖
                 </li>
               </ul>
             </div>
@@ -276,16 +276,16 @@ export class LandingPage {
 
           <div class="cta">
             <div class="cta__primary">
-              <h3>Getting started is simple:</h3>
+              <h3>简单快速开始:</h3>
               <code class={{ copied: this.copiedState > 0 }} onClick={this.copyCommand}>
                 {COPY_STATES[this.copiedState]}
               </code>
               <span>
-                Requires <stencil-route-link url="/docs/getting-started">NPM v6</stencil-route-link>
+                推荐 <stencil-route-link url="/docs/getting-started">NPM v6</stencil-route-link>
               </span>
             </div>
             <p class="cta__secondary">
-              Dive deeper with our <stencil-route-link url="/docs/getting-started">Getting Started</stencil-route-link> guide
+              更多的信息请移步 <stencil-route-link url="/docs/getting-started">开始</stencil-route-link> 文档
             </p>
           </div>
         </section>
@@ -293,7 +293,7 @@ export class LandingPage {
         <section class="gradient-bg">
           <ResponsiveContainer>
             <h2>
-              <strong>Stencil doesn’t fight the web platform.</strong> It embraces it.
+              <strong>Stencil 不会与现有前端框架产生冲突。</strong> 可以适配各种框架
             </h2>
             <ul class="feature-list list--unstyled">
               <li class="feature-list__item">
@@ -307,8 +307,8 @@ export class LandingPage {
                     stroke-linejoin="round"
                   />
                 </svg>
-                <h3>Simple</h3>
-                <p>With intentionally small tooling, a tiny API, and zero configuration, Stencil gets out of the way and lets you focus on your work.</p>
+                <h3>简单</h3>
+                <p>Stencil 体积足够小，并且拥有简洁的 api 设计，几乎零配置就可开箱即用。可以让你的注意力都集中在你的业务中。</p>
               </li>
               <li class="feature-list__item">
                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -319,8 +319,8 @@ export class LandingPage {
                     fill="#141334"
                   />
                 </svg>
-                <h3>Lightweight</h3>
-                <p>A tiny runtime, prerendering, and the raw power of native Web Components make Stencil one of the fastest compilers around.</p>
+                <h3>轻量化</h3>
+                <p>Stencil 拥有一个极其简单高效的运行时 runtime，预渲染机制，可以称得上是最快的编译生成 Web Components 的工具</p>
               </li>
               <li class="feature-list__item">
                 <svg width="32" height="30" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -331,8 +331,8 @@ export class LandingPage {
                     fill="#141334"
                   />
                 </svg>
-                <h3>Future proof</h3>
-                <p>Build cross-framework components and design systems on open web standards, and break free of Framework Churn.</p>
+                <h3>面向未来</h3>
+                <p>Stencil 可以构建跨框架的组件和设计系统，并且它是符合 web 的开放标准和趋势，并不会收到框架的束缚</p>
               </li>
             </ul>
           </ResponsiveContainer>
